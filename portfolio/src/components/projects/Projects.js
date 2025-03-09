@@ -22,14 +22,22 @@ const Projects = () => {
           title="Next-cloud AIO"
           des="Next-cloud is a powerful self-hosted cloud storage solution that gives you full control over your data. I used Docker on an Ubuntu Server VM to set up Next-cloud AIO."
           src={projectOne}
+          git_link="https://medium.com/@viduruwan20006/next-cloud-aio-with-docker-on-the-ubuntu-server-82bfdc908518"
+          link="https://medium.com/@viduruwan20006/next-cloud-aio-with-docker-on-the-ubuntu-server-82bfdc908518"
         />
-        <ProjectsCard title="Movie App" des="" src={projectTwo} />
+        <ProjectsCard
+          title="Movie App"
+          des="Flutter application that allows users to fetch movie data from The Movie Database (TMDb) API. The app displays a list of movies, their details"
+          src={projectTwo}
+          git_link="https://github.com/Viduruwan-55/Flutter_Movie_app.git"
+        />
         <ProjectsCard
           title="Student Attendance System"
           des=""
           src={projectThree}
+          git_link="https://github.com/Viduruwan-55/Student_Attendance_System.git"
         />
-        <ProjectsCard title="E-commerce Website" des="" src={projectFour} />
+        <ProjectsCard title="E-commerce Website" src={projectFour} />
         <ProjectsCard title="mental_health_chatbot" des=" " src="" />
       </div>
     </section>
