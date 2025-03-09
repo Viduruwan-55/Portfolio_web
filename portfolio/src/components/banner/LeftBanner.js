@@ -1,13 +1,7 @@
 import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import {
-  FaTwitter,
-  FaLinkedinIn,
-  FaGithub,
-  FaLinux,
-  FaMediumM,
-} from "react-icons/fa";
-import { SiDocker, SiKalilinux, SiWireshark } from "react-icons/si";
+import { FaLinkedinIn, FaGithub, FaLinux, FaMediumM } from "react-icons/fa";
+import { SiDocker, SiKalilinux, SiWireshark, SiX } from "react-icons/si";
 
 const LeftBanner = () => {
   const [text] = useTypewriter({
@@ -30,7 +24,7 @@ const LeftBanner = () => {
           <Cursor
             cursorBlinking="false"
             cursorStyle="|"
-            cursorColor="#003092"
+            cursorColor="#00FF9C"
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
@@ -48,17 +42,17 @@ const LeftBanner = () => {
                 <FaGithub />
               </span>
             </a>
-            <a href="" target="blank">
+            <a href="https://medium.com/@viduruwan20006" target="blank">
               <span className="bannerIcon">
                 <FaMediumM />
               </span>
             </a>
-            <a href="" target="blank">
+            <a href="https://x.com/Viduruwan_X55" target="blank">
               <span className="bannerIcon">
-                <FaTwitter />
+                <SiX />
               </span>
             </a>
-            <a href="" target="blank">
+            <a href="https://linkedin.com/in/y-p-viduruwan" target="blank">
               <span className="bannerIcon">
                 <FaLinkedinIn />
               </span>
