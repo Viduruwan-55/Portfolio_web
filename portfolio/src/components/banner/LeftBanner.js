@@ -1,11 +1,16 @@
 import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import { FaLinkedinIn, FaGithub, FaLinux, FaMediumM } from "react-icons/fa";
+import { FaLinkedinIn, FaGithub, FaLinux, FaMedium } from "react-icons/fa6";
 import { SiDocker, SiKalilinux, SiWireshark, SiX } from "react-icons/si";
 
 const LeftBanner = () => {
   const [text] = useTypewriter({
-    words: ["Professional Coder.", "Full Stack Developer.", "UI Designer."], /// add my profetions here
+    words: [
+      "Professional Coder.",
+      "Penetration tester.",
+      "Mobile App Developer.",
+      "Sytem Administrator",
+    ], /// add my profetions here
     loop: true,
     typeSpeed: 20,
     deleteSpeed: 10,
@@ -44,7 +49,7 @@ const LeftBanner = () => {
             </a>
             <a href="https://medium.com/@viduruwan20006" target="blank">
               <span className="bannerIcon">
-                <FaMediumM />
+                <FaMedium />
               </span>
             </a>
             <a href="https://x.com/Viduruwan_X55" target="blank">

@@ -1,11 +1,6 @@
 import React from "react";
-import {
-  FaFacebookF,
-  FaTwitter,
-  FaLinkedinIn,
-  FaWhatsapp,
-} from "react-icons/fa";
-import { SiX } from "react-icons/si";
+import { FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
+import { SiGmail, SiX } from "react-icons/si";
 import { contactImg } from "../../assets/index";
 
 const ContactLeft = () => {
@@ -19,7 +14,8 @@ const ContactLeft = () => {
       <div className="flex flex-col gap-4">
         <h3 className="text-3xl font-bold text-white">Y.P. Viduruwan</h3>
         <p className="text-lg font-normal text-gray-400">
-          Cyber Security Enthusiastist
+          Cyber Security Enthusiastist || Mobile App Developer || Penetration
+          tester || Linux System Administrator
         </p>
         <p className="text-base text-gray-400 tracking-wide"></p>
         <p className="text-base text-gray-400 flex items-center gap-2">
@@ -41,14 +37,16 @@ const ContactLeft = () => {
         </p>
       </div>
       <div className="flex flex-col gap-4">
-        <h2 className="text-base uppercase font-titleFont mb-4">Find me in</h2>
+        <h2 className="text-base uppercase font-titleFont mb-4 text-designColor">
+          Get in Touch via
+        </h2>
         <div className="flex gap-4">
           <a
-            href="https://www.facebook.com/yasisurupathumviduruwa"
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=ypviduruwan55@gmail.com" //https://www.facebook.com/yasisurupathumviduruwa
             target="blank"
           >
             <span className="bannerIcon">
-              <FaFacebookF />
+              <SiGmail />
             </span>
           </a>
           <a href="https://x.com/Viduruw0an_X55" target="blank">

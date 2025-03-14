@@ -18,8 +18,8 @@ function App() {
         <Banner />
         <Features />
         <Projects />
-        <Testimonial />
         <Achievement />
+        <Testimonial />
         <Contact />
         <Footer />
         <FooterBottom />

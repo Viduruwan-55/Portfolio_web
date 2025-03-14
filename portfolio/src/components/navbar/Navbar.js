@@ -4,6 +4,8 @@ import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
 import { logo } from "../../assets/index";
 import { navLinksdata } from "../../constants";
+import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
+import { SiX } from "react-icons/si";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -43,11 +45,7 @@ const Navbar = () => {
             <div className="flex flex-col gap-8 py-2 relative">
               <div>
                 <img className="w-32" src={logo} alt="logo" />
-                <p className="text-sm text-gray-400 mt-2">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Earum soluta perspiciatis molestias enim cum repellat, magnam
-                  exercitationem distinctio aliquid nam.
-                </p>
+                <p> hello </p>
               </div>
               <ul className="flex flex-col gap-4">
                 {navLinksdata.map((item) => (
@@ -70,19 +68,19 @@ const Navbar = () => {
                 ))}
               </ul>
               <div className="flex flex-col gap-4">
-                <h2 className="text-base uppercase font-titleFont mb-4">
+                <h2 className="text-base uppercase font-titleFont mb-4 text-designColor">
                   Find me in
                 </h2>
                 <div className="flex gap-4">
-                  {/* {/* <span className="bannerIcon">
+                  <span className="bannerIcon">
                     <FaFacebookF />
                   </span>
                   <span className="bannerIcon">
-                    <FaTwitter />
+                    <SiX />
                   </span>
                   <span className="bannerIcon">
-                    <FaLinkedinIn /> 
-                  </span> */}
+                    <FaLinkedinIn />
+                  </span>
                 </div>
               </div>
               <span
