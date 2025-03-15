@@ -1,7 +1,7 @@
 import React from "react";
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 import { logo } from "../../assets/index";
-import { SiX } from "react-icons/si";
+import { SiInstagram, SiX } from "react-icons/si";
 
 const Footer = () => {
   return (
@@ -27,9 +27,17 @@ const Footer = () => {
               <FaLinkedinIn />
             </span>
           </a>
+          <a
+            href="https://www.instagram.com/yasisurupathum?igsh=MTZxdTV6OTUxc2xrYQ=="
+            target="blank"
+          >
+            <span className="bannerIcon">
+              <SiInstagram />
+            </span>
+          </a>
         </div>
       </div>
-      <div className="w-full h-full">
+      <div className="w-full h-full ml-20">
         <h3 className="text-xl uppercase text-designColor tracking-wider">
           Quick Link
         </h3>
