@@ -40,7 +40,16 @@ const Features = () => {
         <Title title="About" des="About me" />
         <div className="text-base font-bodyFont leading-6 tracking-wide ">
           <p>
-            I am a professional web developer with long time experience in this
+            I'm a Cybersecurity and DevOps enthusiast with a passion for
+            building secure, scalable, and efficient systems. With a strong
+            foundation in Linux, cloud technologies, and automation, I focus on
+            designing and maintaining secure IT solutions while streamlining
+            processes with the best security practices. I enjoy solving
+            real-world security challenges, working in collaborative
+            environments, and constantly learning to stay ahead in the
+            ever-evolving tech landscape. Whether it's securing infrastructures,
+            automating deployments, or developing robust backend solutions, I'm
+            always up for a challenge.
           </p>
         </div>
       </div>
