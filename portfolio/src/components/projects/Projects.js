@@ -5,6 +5,7 @@ import {
   projectTwo,
   projectThree,
   projectFour,
+  projectFive,
 } from "../../assets/index";
 import ProjectsCard from "./ProjectsCard";
 
@@ -37,8 +38,8 @@ const Projects = () => {
           src={projectThree}
           git_link="https://github.com/Viduruwan-55/Student_Attendance_System.git"
         />
-        <ProjectsCard title="E-commerce Website" src={projectFour} />
-        <ProjectsCard title="mental_health_chatbot" des=" " src="" />
+        {/* <ProjectsCard title="E-commerce Website" src={projectFour} /> */}
+        <ProjectsCard title="mental_health_chatbot" des=" " src={projectFive} />
       </div>
     </section>
   );
