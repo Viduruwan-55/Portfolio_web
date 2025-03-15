@@ -2,7 +2,7 @@ import React from "react";
 
 const Card = ({ title, icon }) => {
   return (
-    <div className="w-full px-6 py-2 rounded-lg shadow-shadowOne flex items-center bg-gradient-to-r from-bodyColor to-[#202327] group hover:bg-gradient-to-b hover:from-black hover:to-[#1e2024] transition-colors duration-100 group">
+    <div className="w-full px-6 py-2 rounded-lg shadow-shadowOne flex items-center bg-black bg-opacity-25 group hover:bg-gradient-to-b hover:from-black hover:to-[#1e2024] transition-colors duration-100 group">
       <div className="flex items-center gap-3">
         {icon ? (
           <span className="text-2xl text-designColor">{icon}</span>
