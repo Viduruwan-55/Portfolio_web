@@ -1,8 +1,14 @@
 import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import { FaLinkedinIn, FaGithub, FaLinux, FaMedium } from "react-icons/fa6";
+import {
+  FaLinkedinIn,
+  FaGithub,
+  FaLinux,
+  FaMedium,
+  FaDownload,
+} from "react-icons/fa6";
 import { SiDocker, SiKalilinux, SiWireshark, SiX } from "react-icons/si";
-
+import Button from "./button";
 const LeftBanner = () => {
   const [text] = useTypewriter({
     words: [
@@ -17,7 +23,7 @@ const LeftBanner = () => {
     delaySpeed: 2000,
   });
   return (
-    <div className="w-full lgl:w-1/2 flex flex-col gap-20">
+    <div className="w-full lgl:w-1/2 flex flex-col gap-10 mt-20">
       <div className="flex flex-col gap-5">
         <h4 className=" text-lg font-normal">Securing the Digital World</h4>
         <h1 className="text-6xl font-bold text-white">
@@ -33,10 +39,14 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-          my profile //
+          A Computer Science undergraduate passionate about Cybersecurity,
+          DevOps, and cloud technologies. Focused on building secure and
+          reliable systems while exploring new ways to enhance digital security.
+          🚀
         </p>
       </div>
-      <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
+
+      <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between mt-10">
         <div>
           <h2 className="text-base uppercase font-titleFont mb-4">
             Find me in
@@ -83,6 +93,9 @@ const LeftBanner = () => {
             </span>
           </div>
         </div>
+      </div>
+      <div className="flex justify-center items-center ">
+        <Button title="Download cv" icon={<FaDownload />} />
       </div>
     </div>
   );
