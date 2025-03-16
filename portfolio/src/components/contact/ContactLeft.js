@@ -55,17 +55,29 @@ const ContactLeft = () => {
               <SiGmail />
             </span>
           </a>
-          <a href="https://x.com/Viduruw0an_X55" target="blank">
+          <a
+            href="https://x.com/Viduruw0an_X55"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <span className="bannerIcon">
               <SiX />
             </span>
           </a>
-          <a href="https://linkedin.com/in/y-p-viduruwan" target="blank">
+          <a
+            href="https://linkedin.com/in/y-p-viduruwan"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <span className="bannerIcon">
               <FaLinkedinIn />
             </span>
           </a>
-          <a href="https://wa.me/94717220818" target="_blank">
+          <a
+            href="https://wa.me/94717220818"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <span className="bannerIcon">
               <FaWhatsapp></FaWhatsapp>{" "}
             </span>

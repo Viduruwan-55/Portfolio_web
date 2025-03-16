@@ -4,7 +4,6 @@ import {
   projectOne,
   projectTwo,
   projectThree,
-  projectFour,
   projectFive,
 } from "../../assets/index";
 import ProjectsCard from "./ProjectsCard";
