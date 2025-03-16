@@ -45,7 +45,15 @@ const LeftBanner = () => {
           🚀
         </p>
       </div>
-
+      <div className="flex justify-start items-start ">
+        <Button
+          title="Download cv"
+          icon={<FaDownload />}
+          fileUrl={
+            "https://drive.google.com/uc?export=download&id=1oRMvlEMFeFo6Nvd0lup2hfvCrte0DYwf"
+          }
+        />
+      </div>
       <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between mt-10">
         <div>
           <h2 className="text-base uppercase font-titleFont mb-4">
@@ -93,9 +101,6 @@ const LeftBanner = () => {
             </span>
           </div>
         </div>
-      </div>
-      <div className="flex justify-center items-center ">
-        <Button title="Download cv" icon={<FaDownload />} />
       </div>
     </div>
   );
