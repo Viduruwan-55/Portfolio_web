@@ -5,7 +5,7 @@ import { SiInstagram, SiX } from "react-icons/si";
 
 const Footer = () => {
   return (
-    <div className="w-full py-20 h-auto border-b-[1px] border-b-black grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-4 gap-8">
+    <div className="w-full py-20 h-auto border-b-[1px] border-b-black grid grid-cols-1 md:grid-cols-[1fr_2fr]">
       <div className="w-full h-full flex flex-col gap-8">
         <img className="w-32" src={logo} alt="logo" />
         <div className="flex gap-4">
@@ -37,11 +37,14 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <div className="w-full h-full ml-20">
-        <h3 className="text-xl uppercase text-designColor tracking-wider">
-          Quick Link
+      <div className="w-3/4 h-full  ">
+        <h3 className="w-full text-xl uppercase text-designColor tracking-wider flex mb-4">
+          Let's build secure and innovative solutions together!
         </h3>
-        <h4 className="w-full">Securing the future, one step at a time. </h4>
+        <h4 className="w-full">
+          I'm always open to discussing cybersecurity, DevOps, cloud
+          technologies, or any exciting project you have in mind.
+        </h4>
       </div>
     </div>
   );
