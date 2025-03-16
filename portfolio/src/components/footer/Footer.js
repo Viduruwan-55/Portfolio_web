@@ -41,10 +41,8 @@ const Footer = () => {
         <h3 className="text-xl uppercase text-designColor tracking-wider">
           Quick Link
         </h3>
-        <h4></h4>
-        {/* */}
+        <h4 className="w-full">Securing the future, one step at a time. </h4>
       </div>
-      {/* */}
     </div>
   );
 };

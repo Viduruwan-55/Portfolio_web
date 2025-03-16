@@ -8,7 +8,6 @@ import Navbar from "./components/navbar/Navbar";
 import Projects from "./components/projects/Projects";
 import Testimonial from "./components/tesimonial/Testimonial";
 import Achievement from "./components/resume/Achievement";
-import Experience from "./components/resume/Experience";
 
 function App() {
   return (

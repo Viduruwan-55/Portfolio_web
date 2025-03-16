@@ -20,7 +20,11 @@ const ContactLeft = () => {
         <p className="text-base text-gray-400 tracking-wide"></p>
         <p className="text-base text-gray-400 flex items-center gap-2">
           Phone:
-          <a href="https://wa.me/94717220818" target="_blank">
+          <a
+            href="https://wa.me/94717220818"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <span className="text-lightText">+94717220818</span>
           </a>
         </p>
@@ -30,6 +34,7 @@ const ContactLeft = () => {
             <a
               href="https://mail.google.com/mail/?view=cm&fs=1&to=ypviduruwan55@gmail.com"
               target="_blank"
+              rel="noopener noreferrer"
             >
               ypviduruwan55@gmail.com
             </a>
@@ -44,6 +49,7 @@ const ContactLeft = () => {
           <a
             href="https://mail.google.com/mail/?view=cm&fs=1&to=ypviduruwan55@gmail.com" //https://www.facebook.com/yasisurupathumviduruwa
             target="blank"
+            rel="noopener noreferrer"
           >
             <span className="bannerIcon">
               <SiGmail />
